@@ -1,0 +1,8 @@
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-ollama==0.3.10
+langchain-text-splitters==0.3.11
+chromadb==0.5.23
+pypdf==5.1.0
+python-dotenv==1.2.3
+langchain-cloudflare==0.1.8

@@ -1,0 +1,65 @@
+# ---------------------------------------------------------------
+# Ambiente virtual (.venv)
+# ---------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ---------------------------------------------------------------
+# Variáveis de ambiente e segredos
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.toml
+
+# ---------------------------------------------------------------
+# Bancos de dados Chroma (vetorial) — gerados automaticamente
+# pelo seu script a partir do PDF, são binários que mudam a
+# cada execução
+# ---------------------------------------------------------------
+chroma_regras_futebol/
+chroma_regras_futebol_cloudflare/
+chroma_db/
+chroma_regras_futebol_cloudflare/chroma.sqlite3
+
+# ---------------------------------------------------------------
+# Cache do Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------------------------------------------------------------
+# Jupyter Notebook checkpoints / arquivos temporários
+# ---------------------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------
+# IDEs e editores (PyCharm, VS Code etc.)
+# ---------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---------------------------------------------------------------
+# Testes / cobertura
+# ---------------------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
