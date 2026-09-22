@@ -115,7 +115,7 @@ Digite `sair` para encerrar.
 
 Os índices são salvos em disco e reutilizados nas execuções seguintes (o PDF só é indexado uma vez):
 
-- `chroma_regras_futebol/` — índice salvo após execuação do código
+- `chroma_regras_futebol/` — índice salvo após execução do código
 
 
 Para **reindexar** (ex.: após trocar o modelo de embeddings ou alterar o PDF), basta apagar a pasta correspondente:
