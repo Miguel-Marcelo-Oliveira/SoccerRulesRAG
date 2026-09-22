@@ -115,8 +115,8 @@ Digite `sair` para encerrar.
 
 Os índices são salvos em disco e reutilizados nas execuções seguintes (o PDF só é indexado uma vez):
 
-- `chroma_regras_futebol/` — índice da versão com Ollama local
-- `chroma_regras_futebol_cloudflare/` — índice da versão com Cloudflare
+- `chroma_regras_futebol/` — índice salvo após exeucação do código
+
 
 Para **reindexar** (ex.: após trocar o modelo de embeddings ou alterar o PDF), basta apagar a pasta correspondente:
 
